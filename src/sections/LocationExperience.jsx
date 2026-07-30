@@ -115,12 +115,15 @@ const LocationExperience = () => {
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              className="w-full h-full filter brightness-90 contrast-105 pointer-events-auto"
+              className="w-full h-full filter brightness-70 contrast-125 invert-[88%] hue-rotate-180 opacity-75 group-hover:opacity-90 transition-all duration-500 pointer-events-auto"
             ></iframe>
             
+            {/* Dark Vignette Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/60 pointer-events-none z-10" />
+
             {/* Top Glass Badge */}
-            <div className="absolute top-4 left-4 right-4 pointer-events-none">
-              <div className="bg-black/80 backdrop-blur-md p-3 rounded-xl border border-[#D4AF37]/40 flex items-center justify-between shadow-lg">
+            <div className="absolute top-4 left-4 right-4 pointer-events-none z-20">
+              <div className="bg-black/90 backdrop-blur-md p-3 rounded-xl border border-[#D4AF37]/40 flex items-center justify-between shadow-xl">
                 <span className="text-white font-serif tracking-widest text-[11px] uppercase text-[#F3E5AB]">
                   L'ÉLÉGANCE MAYFAIR LONDON
                 </span>

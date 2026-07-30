@@ -9,16 +9,36 @@ const BrandStory = () => {
   return (
     <section id="story" className="py-28 bg-[#FAF9F6] text-[#111111] relative overflow-hidden">
       
-      {/* Background Subtle Botanical Floral Vectors */}
-      <div className="absolute top-10 left-6 w-72 h-72 opacity-10 pointer-events-none text-[#AA771C]">
-        <svg viewBox="0 0 200 200" fill="currentColor">
-          <path d="M100 20C110 60 140 90 180 100C140 110 110 140 100 180C90 140 60 110 20 100C60 90 90 60 100 20Z" />
+      {/* Background Subtle 24K Gold Fine Dining Cutlery Crest Vectors */}
+      <div className="absolute top-10 left-6 w-72 h-72 opacity-15 pointer-events-none text-[#AA771C]">
+        <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="100" cy="100" r="82" strokeWidth="1" strokeDasharray="4 4" />
+          <circle cx="100" cy="100" r="70" strokeWidth="0.75" />
+          <g transform="rotate(-25 100 100)">
+            <path d="M85 45 L85 85 C85 100 100 105 100 105 M75 45 L75 75 C75 88 85 92 85 92 M95 45 L95 75 C95 88 85 92 85 92" strokeWidth="1.2" />
+            <path d="M85 92 L85 155" strokeWidth="2" />
+          </g>
+          <g transform="rotate(25 100 100)">
+            <path d="M115 45 Q130 72 115 95 L115 155" strokeWidth="1.2" />
+            <path d="M115 45 L115 155" strokeWidth="2" />
+          </g>
+          <circle cx="100" cy="100" r="10" strokeWidth="0.75" />
         </svg>
       </div>
 
-      <div className="absolute bottom-10 right-6 w-80 h-80 opacity-10 pointer-events-none text-[#AA771C] transform rotate-45">
-        <svg viewBox="0 0 200 200" fill="currentColor">
-          <path d="M100 20C110 60 140 90 180 100C140 110 110 140 100 180C90 140 60 110 20 100C60 90 90 60 100 20Z" />
+      <div className="absolute bottom-10 right-6 w-80 h-80 opacity-15 pointer-events-none text-[#AA771C]">
+        <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="100" cy="100" r="82" strokeWidth="1" strokeDasharray="4 4" />
+          <circle cx="100" cy="100" r="70" strokeWidth="0.75" />
+          <g transform="rotate(-25 100 100)">
+            <path d="M85 45 L85 85 C85 100 100 105 100 105 M75 45 L75 75 C75 88 85 92 85 92 M95 45 L95 75 C95 88 85 92 85 92" strokeWidth="1.2" />
+            <path d="M85 92 L85 155" strokeWidth="2" />
+          </g>
+          <g transform="rotate(25 100 100)">
+            <path d="M115 45 Q130 72 115 95 L115 155" strokeWidth="1.2" />
+            <path d="M115 45 L115 155" strokeWidth="2" />
+          </g>
+          <circle cx="100" cy="100" r="10" strokeWidth="0.75" />
         </svg>
       </div>
 

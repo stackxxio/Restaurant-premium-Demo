@@ -22,44 +22,6 @@ const Footer = () => {
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#D4AF37]/5 rounded-full blur-[160px] pointer-events-none" />
 
       <div className="container mx-auto px-6 md:px-12 max-w-7xl relative z-10">
-        
-        {/* Private Concierge Club Newsletter Strip */}
-        <div className="bg-neutral-950/80 border border-[#D4AF37]/40 rounded-3xl p-8 md:p-12 mb-20 backdrop-blur-xl shadow-[0_0_50px_rgba(212,175,55,0.15)] flex flex-col lg:flex-row items-center justify-between gap-8">
-          <div className="max-w-xl text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full border border-[#D4AF37]/40 bg-black/60 mb-3">
-              <HiSparkles className="text-[#D4AF37] text-xs animate-pulse" />
-              <span className="text-[10px] uppercase tracking-[0.3em] text-[#F3E5AB] font-medium">
-                PRIVATE CONCIERGE CLUB
-              </span>
-            </div>
-            <h3 className="text-2xl sm:text-3xl font-serif text-white font-light mb-2">
-              Receive Rare Allocation Invites
-            </h3>
-            <p className="text-neutral-400 text-xs sm:text-sm font-light leading-relaxed">
-              Subscribe to join our exclusive VIP guest ledger for private cellar allocations and tasting invitations.
-            </p>
-          </div>
-
-          <form 
-            onSubmit={(e) => e.preventDefault()}
-            className="flex flex-col sm:flex-row items-center gap-3 w-full lg:w-auto"
-          >
-            <div className="relative w-full sm:w-80">
-              <FiMail className="absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37] text-base" />
-              <input 
-                type="email" 
-                placeholder="Enter your VIP email address..." 
-                className="w-full bg-black/80 border border-white/20 focus:border-[#D4AF37] rounded-full pl-11 pr-4 py-3.5 text-xs sm:text-sm text-white placeholder-neutral-500 focus:outline-none transition-colors"
-              />
-            </div>
-            <button 
-              type="submit" 
-              className="w-full sm:w-auto px-8 py-3.5 bg-gradient-to-r from-[#D4AF37] via-[#AA771C] to-[#D4AF37] bg-[length:200%_auto] hover:bg-right transition-all duration-500 rounded-full text-black font-medium tracking-widest text-xs uppercase shadow-[0_0_25px_rgba(212,175,55,0.4)] whitespace-nowrap"
-            >
-              Join VIP Club
-            </button>
-          </form>
-        </div>
 
         {/* 4 Multi-Column Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
